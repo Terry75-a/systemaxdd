@@ -35,10 +35,10 @@
     <link rel="stylesheet" href="<?= base_url('css/index/components/bottom_form/dialog_1.css')?>">
   <link rel="stylesheet" href="<?= base_url('css/index/components/bottom_form/dialog_2.css')?>">
   <link rel="stylesheet" href="<?= base_url('css/index/components/bottom_form/dialog_3.css')?>">
+  
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons&display=swap">
 </head>
-<link rel="shortcut icon" href="<?= base_url('/public/images/logo_3.1.png
-')?>"> 
+<link rel="shortcut icon" href="<?= base_url('images/logo_3.1.png')?>"> 
 <body>
 
   <!------------>
@@ -47,7 +47,7 @@
   <nav class="navbar">
     <a href="#" class="logo">
       <div class="logo-circle">
-        <img src="/vista/assets/images/logo_3.1.png" alt="DSG Logo">
+        <img src="<?= base_url('images/logo_3.1.png') ?>" alt="DSG Logo">
       </div>
       <span class="logo-text">DSG PERU TECHNOLOGY</span>
     </a>
@@ -198,8 +198,8 @@
         <div class="services-content">
           <!-- Left Column - Video -->
           <div class="services-video-column">
-            <div class="video-container" data-video-url="/assets/video/videoooo.mp4">
-              <video src="/vista/assets/video/videoooo.mp4" 
+            <div class="video-container" data-video-url="<?= base_url('videos/videoooo.mp4')?>">
+              <video src=<?= base_url('videos/videoooo.mp4')?> 
                      style="width: 100%; height: 100%; object-fit: cover; border-radius: 45px; background: transparent;"
                      controls 
                      autoplay 
@@ -221,7 +221,7 @@
             <!-- Restaurant System Card -->
             <div class="service-card restaurant-card">
               <div class="card-image">
-                <img src="/vista/assets/images/restaurant.png" alt="Sistema para Restaurante">
+                <img src="<?= base_url('images/restaurant.png')?>" alt="Sistema para Restaurante">
               </div>
               <div class="card-content">
                 <h3 class="card-title">SISTEMA PARA RESTAURANTE</h3>
@@ -264,7 +264,7 @@
             <!-- Pharmacy System Card -->
             <div class="service-card pharmacy-card">
               <div class="card-image">
-                <img src="/vista/assets/images/botica/botica.png" alt="Sistema para Botica/Farmacia">
+                <img src="<?= base_url('images/botica.png')?>" alt="Sistema para Botica/Farmacia">
               </div>
               <div class="card-content">
                 <h3 class="card-title">SISTEMA PARA BOTICA/FARMACIA</h3>
@@ -307,7 +307,7 @@
             <!-- Minimarket System Card -->
             <div class="service-card minimarket-card">
               <div class="card-image">
-                <img src="/vista/assets/images/minimark/minimark.png" alt="Sistema para Minimarket">
+                <img src="<?= base_url('images/minimark.png')?>" alt="Sistema para Minimarket">
               </div>
               <div class="card-content">
                 <h3 class="card-title">SISTEMA PARA MINIMARKET</h3>
@@ -394,7 +394,7 @@
               </ul>
           </div>
           <div class="features-image">
-              <img src="/vista/assets/images/features/features.png" alt="DSG Peru Dashboard">
+              <img src="<?= base_url('images/features.png')?>" alt="DSG Peru Dashboard">
           </div>
       </div>
   </section>
