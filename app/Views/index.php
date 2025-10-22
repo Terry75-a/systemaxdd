@@ -12,35 +12,33 @@
     <!------------------>
     <!------- CSS ------>
     <!------------------>
-    <link rel="stylesheet" href="<?= base_url('css/index/styles.css') ?>">
-
-
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/css/index/base/variables.css">
-    <link rel="stylesheet" href="/public/css/index/layout/content.css">
     
-    <link rel="stylesheet" href="/vista/css/index/components/hero.css">
-    <link rel="stylesheet" href="/vista/css/index/components/buttons.css">
-    
-    <link rel="stylesheet" href="<?= base_url('/css/index/components/navbar.css') ?>">
 
-    <link rel="stylesheet" href="/vista/css/index/components/menu.css">
-    <link rel="stylesheet" href="/vista/css/index/components/services.css">
-    <link rel="stylesheet" href="/vista/css/index/components/whatsapp-button.css">
-    <link rel="stylesheet" href="/vista/css/index/components/facebook.css">
-    <link rel="stylesheet" href="/vista/css/index/components/features/features.css">
-    <link rel="stylesheet" href="/vista/css/index/components/carousel.css">
-    <link rel="stylesheet" href="/vista/css/index/responsive/mobile.css">
-    <link rel="stylesheet" href="/vista/css/index/mobile/hero-mobile.css">
-    <link rel="stylesheet" href="/vista/css/index/mobile/services-mobile.css">
-    <link rel="stylesheet" href="/vista/css/index/responsive/contact_infor.css">
-    <link rel="stylesheet" href="/vista/css/index/components/contact_infor.css">
-    <link rel="stylesheet" href="/vista/css/index/components/foter/footer.css">
-    <link rel="stylesheet" href="/vista/css/index/components/bottom_form/dialog_1.css">
-  <link rel="stylesheet" href="/vista/css/index/components/bottom_form/dialog_2.css">
-  <link rel="stylesheet" href="/vista/css/index/components/bottom_form/dialog_3.css">
+
+    <link rel="stylesheet" href="<?= base_url('css/index/base/variables.css')?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/layout/content.css')?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/components/hero.css')?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/base/buttons.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/components/navbar.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/components/menu.css')?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/components/services.css')?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/components/whatsapp-button.css')?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/components/facebook.css')?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/components/features/features.css')?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/components/carousel.css')?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/responsive/mobile.css')?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/mobile/hero-mobile.css')?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/mobile/services-mobile.css')?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/responsive/contact_infor.css')?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/components/contact_infor.css')?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/components/foter/footer.css')?>">
+    <link rel="stylesheet" href="<?= base_url('css/index/components/bottom_form/dialog_1.css')?>">
+  <link rel="stylesheet" href="<?= base_url('css/index/components/bottom_form/dialog_2.css')?>">
+  <link rel="stylesheet" href="<?= base_url('css/index/components/bottom_form/dialog_3.css')?>">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons&display=swap">
 </head>
-<link rel="shortcut icon" href="/vista/assets/images/logo_3.1.png" type="image/png"> 
+<link rel="shortcut icon" href="<?= base_url('/public/images/logo_3.1.png
+')?>"> 
 <body>
 
   <!------------>
