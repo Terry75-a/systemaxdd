@@ -1,86 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Desarrollamos software especializado para restaurantes, boticas, minimarkets y más. Soluciones tecnológicas que impulsan tu negocio.">
-    <title>DSG PERU TECHNOLOGY</title>    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!------------------>
-    <!------- CSS ------>
-    <!------------------>
-    
 
-
-    <link rel="stylesheet" href="<?= base_url('css/index/base/variables.css')?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/layout/content.css')?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/components/hero.css')?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/base/buttons.css') ?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/components/navbar.css') ?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/components/menu.css')?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/components/services.css')?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/components/whatsapp-button.css')?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/components/facebook.css')?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/components/features/features.css')?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/components/carousel.css')?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/responsive/mobile.css')?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/mobile/hero-mobile.css')?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/mobile/services-mobile.css')?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/responsive/contact_infor.css')?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/components/contact_infor.css')?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/components/foter/footer.css')?>">
-    <link rel="stylesheet" href="<?= base_url('css/index/components/bottom_form/dialog_1.css')?>">
-  <link rel="stylesheet" href="<?= base_url('css/index/components/bottom_form/dialog_2.css')?>">
-  <link rel="stylesheet" href="<?= base_url('css/index/components/bottom_form/dialog_3.css')?>">
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons&display=swap">
-</head>
 <link rel="shortcut icon" href="<?= base_url('images/logo_3.1.png')?>"> 
 <body>
 
-  <!------------>
-  <!-- navbar -->
-  <!------------>
-  <nav class="navbar">
-    <a href="#" class="logo">
-      <div class="logo-circle">
-        <img src="<?= base_url('images/logo_3.1.png') ?>" alt="DSG Logo">
-      </div>
-      <span class="logo-text">DSG PERU TECHNOLOGY</span>
-    </a>
-    
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#inicio" class="nav-link" onclick="closeMenu()">Inicio</a></li>
-      <li><a href="/vista/pages/public/dsg.html" class="nav-link" onclick="closeMenu()">DSG</a></li>
-      <li><a href="#servicios" class="nav-link services" onclick="closeMenu()">Servicios</a></li>
-      <li><a href="#precios" class="nav-link" onclick="closeMenu()">Precios</a></li>
-    </ul>
-
-    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
-      <span class="material-icons theme-icon">wb_sunny</span>
-    </button>
-
-    <button class="demo-btn">
-        <span class="demo-text">Demo</span>
-        
-    </button>
-    
-
-    <button class="login-btn">
-      <div class="login-text">
-        <p class="login-text-1">Login</p>
-      </div>
   
-    </button>
-
-    <!-- Mobile Menu Toggle - Positioned correctly with CSS -->
-    <button class="mobile-menu-toggle" id="mobile-menu-toggle">
-      <span class="material-icons">menu</span>
-    </button>
-  </nav>
 
   <!-- Mobile Dropdown Menu -->
   <div class="mobile-container" id="mobile-container">
@@ -253,10 +177,14 @@
                     <span>Demo</span>
                     <span class="material-icons">play_arrow</span>
                   </button>
-                  <button class="card-btn contact-btn">
+
+                      <a href="https://wa.me/51903148583?text=%C2%A1Hola!%20👋%20Estoy%20interesado(a)%20en%20los%20servicios%20de%20DSG%20Per%C3%BA%20Technology%20SRL.%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20soluciones%20de%20facturaci%C3%B3n%20electr%C3%B3nica,%20alquiler%20de%20sistemas%20inform%C3%A1ticos,%20consultor%C3%ADa%20TI,%20outsourcing%20o%20desarrollo%20de%20software%20a%20medida.%20%C2%A1Gracias!" target="_blank">
+                        <button class="card-btn contact-btn">
                     <span>Contactanos</span>
                     <span class="material-icons">phone</span>
+                    
                   </button>
+                    </a>
                 </div>
               </div>
             </div>
@@ -296,10 +224,13 @@
                     <span>Demo</span>
                     <span class="material-icons">play_arrow</span>
                   </button>
-                  <button class="card-btn contact-btn">
+                  <a href="https://wa.me/51903148583?text=%C2%A1Hola!%20👋%20Estoy%20interesado(a)%20en%20los%20servicios%20de%20DSG%20Per%C3%BA%20Technology%20SRL.%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20soluciones%20de%20facturaci%C3%B3n%20electr%C3%B3nica,%20alquiler%20de%20sistemas%20inform%C3%A1ticos,%20consultor%C3%ADa%20TI,%20outsourcing%20o%20desarrollo%20de%20software%20a%20medida.%20%C2%A1Gracias!" target="_blank"> 
+                    <button class="card-btn contact-btn">
                     <span>Contactanos</span>
                     <span class="material-icons">phone</span>
                   </button>
+                  </a>
+                  
                 </div>
               </div>
             </div>
@@ -339,10 +270,14 @@
                     <span>Demo</span>
                     <span class="material-icons">play_arrow</span>
                   </button>
-                  <button class="card-btn contact-btn">
+                  <a href="https://wa.me/51903148583?text=%C2%A1Hola!%20👋%20Estoy%20interesado(a)%20en%20los%20servicios%20de%20DSG%20Per%C3%BA%20Technology%20SRL.%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20soluciones%20de%20facturaci%C3%B3n%20electr%C3%B3nica,%20alquiler%20de%20sistemas%20inform%C3%A1ticos,%20consultor%C3%ADa%20TI,%20outsourcing%20o%20desarrollo%20de%20software%20a%20medida.%20%C2%A1Gracias!" target="_blank"> 
+                     <button class="card-btn contact-btn">
                     <span>Contactanos</span>
                     <span class="material-icons">phone</span>
                   </button>
+
+                  </a>
+                  
                 </div>
               </div>
             </div>
@@ -412,17 +347,17 @@
           <!-- Slide 1 -->
           <div class="carousel-slide">
             <div class="testimonial-card">
-              <img src="/vista/assets/images/testimonios/pollos.png" alt="Juan" class="testimonial-logo">
+              <img src="<?= base_url('images/pollos.png?')?>" alt="Juan" class="testimonial-logo">
               <p class="testimonial-text">"DSG Perú nos ayudó a crecer rápido. ¡Excelente equipo!"</p>
               <div class="testimonial-name">Juan Pérez</div>
             </div>
             <div class="testimonial-card">
-              <img src="/vista/assets/images/testimonios/vifarma.png" alt="María" class="testimonial-logo">
+              <img src="<?= base_url('images/vifarma.png')?>" alt="María" class="testimonial-logo">
               <p class="testimonial-text">"El soporte es inmediato y muy profesional."</p>
               <div class="testimonial-name">María López</div>
             </div>
             <div class="testimonial-card">
-              <img src="/vista/assets/images/testimonios/farma.png" alt="Carlos" class="testimonial-logo">
+              <img src="<?= base_url('images/farma.png')?>" alt="Carlos" class="testimonial-logo">
               <p class="testimonial-text">"La solución personalizada fue perfecta para mi negocio."</p>
               <div class="testimonial-name">Carlos Ruiz</div>
             </div>
@@ -431,17 +366,17 @@
           <!-- Slide 2 -->
           <div class="carousel-slide">
             <div class="testimonial-card">
-              <img src="/vista/assets/images/testimonios/drogueria.png" alt="Ana" class="testimonial-logo">
+              <img src="<?= base_url('images/drogueria.png')?>" alt="Ana" class="testimonial-logo">
               <p class="testimonial-text">"Muy recomendados para cualquier empresa."</p>
               <div class="testimonial-name">Ana Torres</div>
             </div>
             <div class="testimonial-card">
-              <img src="/vista/assets/images/testimonios/market.png" alt="Luis" class="testimonial-logo">
+              <img src="<?= base_url('images/market.png')?>" alt="Luis" class="testimonial-logo">
               <p class="testimonial-text">"El sistema es fácil de usar y muy completo."</p>
               <div class="testimonial-name">Luis Mendoza</div>
             </div>
             <div class="testimonial-card">
-              <img src="/vista/assets/images/testimonios/huellitas.png" alt="Sofía" class="testimonial-logo">
+              <img src="<?= base_url('images/huellitas.png')?>" alt="Sofía" class="testimonial-logo">
               <p class="testimonial-text">"La capacitación fue clara y rápida."</p>
               <div class="testimonial-name">Sofía Ramírez</div>
             </div>
@@ -468,22 +403,23 @@
       ¿Tienes alguna pregunta o comentario? Estamos aquí para ayudarte. Completa el formulario y nos pondremos en contacto contigo lo antes posible.
     </p>
 
-    <form class="contact-form">
-      <div class="form-row">
-        <input type="text" placeholder="Nombre Completo *" required>
-        <input type="email" placeholder="Correo Electrónico *" required>
-      </div>
-      <div class="form-row">
-        <input type="text" placeholder="Empresa">
-        <input type="text" placeholder="Teléfono">
-      </div>
-      <input type="text" placeholder="Asunto *" required>
-      <textarea placeholder="Mensaje *" required></textarea>
+    <form class="contact-form" action="<?= base_url('enviar') ?>" method="post">
+  <div class="form-row">
+    <input type="text" placeholder="Nombre Completo *" name="nombre" required>
+    <input type="email" placeholder="Correo Electrónico *" name="correo" required>
+  </div>
+  <div class="form-row">
+    <input type="text" placeholder="Empresa" name="empresa">
+    <input type="number" maxlength="9" placeholder="Teléfono" name="telefono">
+  </div>
+  <input type="text" placeholder="Asunto *" required name="asunto">
+  <textarea placeholder="Mensaje *" name="mensaje" required></textarea>
 
-      <button type="submit" class="btn-submit">
-        Enviar <span class="arrow">→</span>
-      </button>
-    </form>
+  <button type="submit" class="btn-submit">
+    Enviar <span class="arrow">→</span>
+  </button>
+</form>
+
   </div>
    <!-- Map Modal -->
   <div id="map-modal" class="modal-overlay">
@@ -536,69 +472,13 @@
   </section>
 
    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="logo">
-                        <div class="logo-icon">
-                            <img src="/vista/assets/images/logo_3.1.png" alt="DSG PERU TECHNOLOGY">
-                        </div>
-                        <span class="logo-text">DSG PERU TECHNOLOGY</span>
-                    </div>
-                    <p class="footer-description">
-                        Desarrollamos soluciones tecnológicas que impulsan el crecimiento de tu negocio.
-                    </p>
-                </div>
-                <div class="footer-links">
-                    <div class="footer-column">
-                        <h4>Servicios</h4>
-                        <ul>
-                            <li><a href="/pages/services/restaurantes.html">Restaurantes</a></li>
-                            <li><a href="/pages/services/boticas.html">Boticas</a></li>
-                            <li><a href="/pages/services/minimarkets.html">Minimarkets</a></li>
-                            <li><a href="/pages/services/personalizado.html">Personalizado</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Empresa</h4>
-                        <ul>
-                            <li><a href="/pages/public/about.html">Acerca de</a></li>
-                            <li><a href="/pages/public/contact.html">Contacto</a></li>
-                            <li><a href="#">Carreras</a></li>
-                            <li><a href="/pages/public/blog/blog.html">Blog</a></li>
-                            <li><a href="/pages/public/blog/post.html">Post Blog</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Soporte</h4>
-                        <ul>
-                            <li><a href="/pages/public/help/centro-ayuda.html">Centro de Ayuda</a></li>
-                            <li><a href="/pages/public/help/documentation.html">Documentación</a></li>
-                            <li><a href="/pages/public/help/estado_servicio.html">Estado del Servicio</a></li>
-                            <li><a href="/pages/public/help/support.html">Contactar Soporte</a></li>
-                            <li><a href="/pages/public/help/faq.html">FAQ</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 DSG PERU TECHNOLOGY. Todos los derechos reservados.</p>
-                <div class="footer-social">
-                    <a href="https://www.facebook.com/dsgperu" aria-label="Facebook"><i data-lucide="facebook"></i></a>
-                    <a href="https://www.tiktok.com/@dsg.peru.technolo" aria-label="Tiktok"><i class="fa-brands fa-tiktok"></i></a>
-                    <a href="https://www.instagram.com/dsgperu?igsh=NHczY3l2dDdiNWZj" aria-label="Instagram"><i data-lucide="instagram"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+    
 
   <!--------------------->
   <!-- WhatsApp Button -->
   <!--------------------->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="/assets/css/components/whatsapp-button.css">
+    <link rel="stylesheet" href="<?= base_url('css/index/components/whatsapp-button.css') ?>">
   <div class="whatsapp-float">
     <a href="https://wa.me/51903148583?text=%C2%A1Hola!%20👋%20Estoy%20interesado(a)%20en%20los%20servicios%20de%20DSG%20Per%C3%BA%20Technology%20SRL.%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20soluciones%20de%20facturaci%C3%B3n%20electr%C3%B3nica,%20alquiler%20de%20sistemas%20inform%C3%A1ticos,%20consultor%C3%ADa%20TI,%20outsourcing%20o%20desarrollo%20de%20software%20a%20medida.%20%C2%A1Gracias!" 
     class="whatsapp-button" 
@@ -616,7 +496,7 @@
   <!--------------------->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <div class="facebook-float">
-    <a href="https://www.facebook.com/profile.php?id=61580856687580" 
+    <a href="https://www.facebook.com/dsgperu/?locale=es_LA" 
       class="facebook-button" 
       target="_blank" 
       rel="noopener noreferrer"
@@ -630,15 +510,15 @@
   <!--------------------->
   <!------ Scripts ------>
   <!--------------------->
-  <script src="/vista/js/components/carousel.js"></script>
-  <script src="/vista/js/components/counter.js"></script>
-  <script src="/vista/js/components/menu.js"></script>
-  <script src="/vista/js/components/navbar-scroll.js"></script>
-  <script src="/vista/js/components/theme.js"></script>
-  <script src="/vista/js/utils/init.js"></script>
-  <script src="/vista/js/components/contact_infor.js"></script>
-  <script src="/vista/js/components/dialog/dialog.js"></script>
-  <script src="/vista/js/components/home_dark.js"></script>
+  <script src="<?= base_url('js/carrusel.js')?>"></script>
+  <script src="<?= base_url('js/counter.js')?>"></script>
+  <script src="<?= base_url('js/menu.js')?>"></script>
+  <script src="<?= base_url('js/navbar-scroll.js')?>"></script>
+  <script src="<?= base_url('js/theme.js')?>"></script>
+  <script src="<?= base_url('js/init.js')?>"></script>
+  <script src="<?= base_url('js/contact_infor.js')?>"></script>
+  <script src="<?= base_url('js/dialog.js')?>"></script>
+  <script src="<?= base_url('js/home_dark.js')?>"></script>
   <script>
     // Initialize navbar text color on page load
     document.addEventListener('DOMContentLoaded', function() {
